@@ -55,7 +55,6 @@
 
         HRM: HRM {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -108,8 +107,8 @@
 
             bindings = <
 &trans  &kp EXCL  &kp AT     &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET         &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp DEL
-&trans  &export   &const     &log      &func     &trans       &kp LESS_THAN     &kp UNDER  &kp PLUS   &kp LBKT  &kp RBKT  &kp PIPE
-&trans  &email    &password  &trans    &trans    &trans       &kp GREATER_THAN  &kp MINUS  &kp EQUAL  &kp LBRC  &kp RBRC  &kp BSLH
+&trans  &trans   &trans     &trans      &trans     &trans       &kp LESS_THAN     &kp UNDER  &kp PLUS   &kp LBKT  &kp RBKT  &kp PIPE
+&trans  &trans    &trans  &trans    &trans    &trans       &kp GREATER_THAN  &kp MINUS  &kp EQUAL  &kp LBRC  &kp RBRC  &kp BSLH
                              &trans    &trans    &trans       &trans            &trans     &trans
             >;
         };
